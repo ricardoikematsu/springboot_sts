@@ -1,14 +1,14 @@
 package com.ikematsu.data.dto.v1;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.github.dozermapper.core.Mapping;
-import jakarta.persistence.Column;
-import org.springframework.hateoas.RepresentationModel;
-
 import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
+
+import org.springframework.hateoas.RepresentationModel;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.github.dozermapper.core.Mapping;
 
 @JsonPropertyOrder({"id", "firstName", "lastName", "address", "gender"})
 public class PersonDTO extends RepresentationModel<PersonDTO> implements Serializable {

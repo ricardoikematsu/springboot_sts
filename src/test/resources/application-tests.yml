@@ -3,7 +3,7 @@ server:
 cors:
   originPatterns: http://localhost:3000,http://localhost:8080,https://ikematsu.com.br,http://localhost:80
 file:
-  upload-dir: /home/runner/work/rest_with_springboot/Code/UploadDir
+  upload-dir: /home/runner/work/springboot_sts/UploadDir
 security:
   jwt:
     token:

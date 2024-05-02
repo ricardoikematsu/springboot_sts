@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\java\springboot_sts"/>
 			<item value="C:\testes\springboot"/>
 			<item value="C:\java\springboot"/>
 		</list>
